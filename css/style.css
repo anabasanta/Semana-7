@@ -1,0 +1,113 @@
+body {
+	
+	max-width:100%;
+	background: url(../img/originalsquares.png) no-repeat;;
+	width:100%;
+	height: 30%;
+}
+header {
+	background-size: cover;
+	height: 30%;
+	width:100%;
+	border: 0.5%;
+	text-align: center;
+	}
+header img{
+	margin-top: 2%
+	width:70%;
+	height: 30%;
+	}
+a:hover {
+	background-color: white;
+	}
+nav {
+	padding:0.5%;
+	background: black;
+	}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+   	}
+#column
+	{
+	display: flex;
+	justify-content: space-around;
+	}
+.column {
+    padding: 5%;
+    width:40%;
+    background:black;
+    }
+.column.rightcolumn {
+	width: 25%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+.column.leftcolumn {
+	width:25%;
+    margin-top: 2%;
+    margin-left: 2%;
+   	}
+ .footer {
+    padding: 0.5%;
+    text-align: left;
+    background: #ddd;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    font-family: avenir next;
+    }
+h1 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 6em;
+	color: black;
+	background: url(../img/whitepixelsheader.png) no-repeat;
+	height: 15%;
+	padding: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+	}
+span {
+	font-size: 2em;
+	color:white;
+	}
+p {	color: white;
+	text-align: justify;
+	font-family: helvetica;
+	line-height: 200%;
+	}
+h2 {
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+	font-size: 1em;
+	color:white;
+	line-height: 200%;
+	}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: avenir;
+    font-size: 1em;
+	}
+li {
+	text-align: center;
+	float: left;
+	margin-right: 150px;
+	padding-left: 100px;
+	}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+.active {
+   	 background-color: none;
+	}
+		
